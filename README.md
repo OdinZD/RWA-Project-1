@@ -5,11 +5,9 @@
 Project uses Flask-RESTPlus framework
 Structured with MVC pattern
 - model, controller, service and util
-REST API has authentication and authorization with decorators
-- JWT
-Administrators privileges 
-- Can see all the users and which user posted what ticket.
-Database is SQLite
+- REST API has authentication and authorization with decorators, JWT
+- Administrators privileges, Can see all the users and which user posted what ticket.
+- Database is SQLite
 
 ## Installation
 
@@ -49,7 +47,6 @@ to run the application.
 ## Contents
 - [Project structure](#project_structure)
 - [Management script](#management_script)
-- []
 
 ### [Project structure](#project_structure)
 - **app** - the main app container
