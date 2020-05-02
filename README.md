@@ -2,6 +2,15 @@
 
 **This is the back-end part of Bug/Issue tracker web application.**
 
+Project uses Flask-RESTPlus framework
+Structured with MVC pattern
+- model, controller, service and util
+REST API has authentication and authorization with decorators
+- JWT
+Administrators privileges 
+- Can see all the users and which user posted what ticket.
+Database is SQLite
+
 ## Installation
 
 For setting virtualenv find the location of project folder in command prompt, powershell or terminal:
